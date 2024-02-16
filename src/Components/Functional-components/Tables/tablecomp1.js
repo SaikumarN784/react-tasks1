@@ -1,32 +1,33 @@
-import Table2 from "../Tablecomp2"
-function Tablecomp(){
+// import Table2 from "../Tablecomp2"
+// function Tablecomp(){
 
-return(
+// return(
 
-            <div>
+//             <div>
 
-    <table border="1px"  width={1500} height={100} >
+//     <table border="1px"  width={1500} >
 
-<tr>
+// <tr>
 
-<th>id</th>
-<th>All Names</th>
-<th>ALL Types</th>
-<th>All images</th>
-</tr>
-<Table2/>
+// <th>id</th>
+// <th>All Names</th>
+// <th>ALL Types</th>
+// <th>All images</th>
+
+// </tr>
+// <Table2/>
 
 
 
-     </table>
+//      </table>
      
 
-               </div>
-)
+//                </div>
+// )
 
-}
+// }
 
-export default Tablecomp
+// export default Tablecomp
 
 
 
