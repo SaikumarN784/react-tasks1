@@ -11,7 +11,16 @@
 color:gold
 }
 
-.sai2{
-    color:rgb(10, 10, 10);
+.imgc{
+    color:red
 }
 
+.mucolor{
+  background-color: rgb(170, 52, 52);
+}
+.mucolor2{
+  border:1px solid;
+  width:1300px;
+  height:500px;
+  text-align: center;
+}
