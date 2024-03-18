@@ -62,22 +62,16 @@ componentDidMount(){
                 <td><img src={eachobject.image} alt="" width={100} height={100}></img ></td>
                 <td className={bbbg.mucolor}>{eachobject.rating.count}</td> 
                </tr>
-
                     )
                 })
-
             :
             <h4>No such a Found</h4>
            }
-        
-         
            </table>
            </>
         )
     }
 // //map use to evry time key used first parent added 
-
-
 }
 
 export default Mounting

@@ -27,16 +27,16 @@ function Headboot() {
       </Carousel.Item>
       <Carousel.Item>
       {/* <Imagescomp/> */}
-      <img src='https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg' width={1550} height={500}></img>
+      <img src='https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg' width={1550} height={500} alt=''></img>
 
         <Carousel.Caption>
-          <h5 className={varable2.sai2} >Second slide label</h5>
+          <h5 className={varable2.sai} >Second slide label</h5>
           <p className={varable2.sai2}>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
       {/* <Imagescomp/> */}
-      <img src='https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg' width={1550} height={500}></img>
+      <img src='https://t3.ftcdn.net/jpg/05/71/06/76/360_F_571067620_JS5T5TkDtu3gf8Wqm78KoJRF1vobPvo6.jpg' width={1550} alt='' height={500}></img>
         <Carousel.Caption>
           <h5>Third slide label</h5>
           <p>

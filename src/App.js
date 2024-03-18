@@ -1,47 +1,15 @@
-// import Tablecomp from "./Components/Functional-components/Tables/tablecomp1"
-// import MapUsing from "./Components/map-use compo/map"
+import NavigationStack from "./Navigation/navigation"
 
-// import Mounting from "./Comonents/Functinal-Components/axios/Mounting/Mounting phase"
 
-import Circleshape from "./Comonents/Functinal-Components/ClassComponents/circle task/Circle"
-
-// import ProductApi from "./Comonents/Functinal-Components/axios/products"
-
-// import Newproducts from "./Comonents/Functinal-Components/ClassComponents/DAY2/Classbase"
-
-// import SomeProduct from "./Comonents/Functinal-Components/ClassComponents/Products.js/someproducts"
-// import YoutubeButton from "./Comonents/Functinal-Components/ClassComponents/youtubebutton"
-
-// import Buttoncampo from "./Comonents/Functinal-Components/Buttons/button"
-// import Imagescomp from "./Comonents/Functinal-Components/image-comp/images"
-// import Headboot from "./Comonents/Functinal-Components/Bootstrap-react/bootstrap"
-// import SararyHike from "./Comonents/Functinal-Components/ClassComponents/Salarycompo"
-// import Imagescomp from "./Comonents/Functinal-Components/image-comp/images"
-// import Buttoncampo from "./Components/button-comp/button"
-// import Profiledata from "./Components/Task2-components/oneprofile"
-// import { FormFloating } from "react-bootstrap"
 
 function App(){
-  
   return(
 
 
     <div>
-      {/* <Mounting/> */}
-      <Circleshape/>
-      {/* <ProductApi/> */}
-      {/* <SomeProduct/> */}
-      {/* <YoutubeButton/> */}
-      {/* <Headboot/> */}
-      {/* <Imagescomp/> */}
-{/* <SararyHike/>  */}
-    {/* /<Newproducts/> */}
-      {/* <h1>HELLO WORLD</h1> */}
-     {/* <Buttoncampo/> */}
-      {/* <Profiledata/> */}
-{/* <Buttoncampo /> */}
-    {/* <Tablecomp/> */}
-    {/* <MapUsing/> */}
+   
+<NavigationStack/>
+
 
     </div>
   )
@@ -68,3 +36,14 @@ export default App
  //***axios is a third party library which is used to make http request more effienctly..
 
 //post man: its a tool for testing of API
+
+// additinal information added sysntax wise * props :parent to childrean  for communication purpose
+
+//Prop Drilling:prop drilling is basically a situation where data has to be pass through a nested levels to reach the final component
+//prop driling props data all level down
+//state management:if the state is managed with in component we call it as a local state managment
+
+//global state managemengt:if the state managed globally ,we call it as a global state mangement 
+//to eliminate the prop driling we need manage the state globally 2 ways of the
+ //1.context api----medium level applications
+ //this two solutions used to the state manage do it..// 2. redux --- for larger level applications we can prefer redux (which enables more feutures and its powerfull)
